@@ -13,7 +13,7 @@ int main()
 	max=arr[0];
 	for(i=0;i<n;i++)
 	{
-		if(arr[i]>max);
+		if(arr[i]>max)
 		{
 			max=arr[i];
 		}
@@ -26,3 +26,4 @@ int main()
 	printf("\n min value:%d",min);
 	return 0;
 }
+
