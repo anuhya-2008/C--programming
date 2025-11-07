@@ -18,7 +18,7 @@ int main()
 		mid=(low+high)/2;
 		if(search==a[mid])
 		{
-			printf("\nsearching element found at location a[%d]location",i);
+			printf("\nsearching element found at location a[%d]location",mid);
 			found=1;
 			break;
 		}
@@ -37,3 +37,4 @@ int main()
 	}
 	return 0;
 }
+
